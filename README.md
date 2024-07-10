@@ -6,7 +6,7 @@ Ce projet démontre les capacité du LLM Claude 3.5 Sonnet dans la conception d'
 
 <img src="./image_demo.png" alt="Demo Image" width="300"/>
 
-Vous pouvez visualiser la démo ici :  
+Vous pouvez visualiser la démo ici :  https://macmachi.github.io/3D-RoboArm-RL/index.html
 
 ## 🔑 Fonctionnalités principales
 
