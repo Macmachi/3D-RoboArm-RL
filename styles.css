@@ -1,0 +1,45 @@
+/*Créé par Arnaud R. avec l'aide de Claude 3.5 Sonnet*/
+body { 
+    margin: 0; 
+    overflow: hidden; 
+    display: flex;
+}
+#leftPanel {
+    width: 70%;
+    height: 100vh;
+    position: relative;
+}
+#rightPanel {
+    width: 30%;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+canvas { 
+    display: block; 
+    width: 100%;
+    height: 100%;
+}
+.controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.slider {
+    width: 200px;
+    margin: 10px 0;
+}
+#learningStats {
+    margin-bottom: 20px;
+}
+#rewardChart {
+    flex-grow: 1;
+    width: 100%;
+}
