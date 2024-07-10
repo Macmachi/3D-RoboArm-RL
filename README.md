@@ -4,8 +4,7 @@
 
 Ce projet démontre les capacité du LLM Claude 3.5 Sonnet dans la conception d'un bras robotique 3D ultra-réaliste qui apprend à saisir une balle grâce à l'apprentissage par renforcement. La simulation utilise Three.js pour le rendu 3D et intègre un réseau de neurones pour l'apprentissage.
 
-<img src="./image_demo" alt="Demo Image" width="300"/>
-
+<img src="./image_demo.png" alt="Demo Image" width="300"/>
 
 ## 🔑 Fonctionnalités principales
 
