@@ -1,0 +1,43 @@
+<!--
+*Créé par Arnaud R. avec l'aide de Claude 3.5 Sonnet 
+*Version 1.0.0
+-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bras Robotique 3D Ultra Réaliste avec Contraintes Physiques et Balle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="leftPanel">
+        <div class="controls">
+            <input type="range" min="-180" max="180" value="0" class="slider" id="baseRotation">
+            <label for="baseRotation">Rotation de la base</label>
+            <input type="range" min="-90" max="90" value="0" class="slider" id="shoulderRotation">
+            <label for="shoulderRotation">Rotation de l'épaule</label>
+            <input type="range" min="-135" max="0" value="-45" class="slider" id="elbowRotation">
+            <label for="elbowRotation">Rotation du coude</label>
+            <input type="range" min="-180" max="180" value="0" class="slider" id="wristRotation">
+            <label for="wristRotation">Rotation du poignet</label>
+            <input type="range" min="0" max="15" value="0" class="slider" id="gripperOpen">
+            <label for="gripperOpen">Ouverture de la pince</label>
+            <input type="range" min="1" max="100" value="1" class="slider" id="iterationsPerFrame">
+            <label for="iterationsPerFrame">Itérations par frame: <span id="iterationsPerFrameValue">1</span></label>
+        </div>
+    </div>
+    <div id="rightPanel">
+        <div id="learningStats">
+            <h2>Statistiques d'apprentissage</h2>
+            <p>Épisodes: <span id="episodeCount">0</span></p>
+            <p>Récompense moyenne: <span id="averageReward">0</span></p>
+        </div>
+        <canvas id="rewardChart"></canvas>
+    </div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>    
+</body>
+</html>
