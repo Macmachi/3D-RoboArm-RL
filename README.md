@@ -6,6 +6,8 @@ Ce projet démontre les capacité du LLM Claude 3.5 Sonnet dans la conception d'
 
 <img src="./image_demo.png" alt="Demo Image" width="300"/>
 
+Vous pouvez visualiser la démo ici :  
+
 ## 🔑 Fonctionnalités principales
 
 1. 🎛️ Contrôle manuel du bras robotique via des sliders
